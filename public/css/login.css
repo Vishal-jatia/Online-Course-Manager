@@ -1,0 +1,110 @@
+body {
+    background-image: url('Desktop\ -\ 1.png');
+    background-repeat: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.dot {
+    width: 24.97px;
+    height: 24.97px;
+    margin-top: 120px;
+    border-radius: 50%;
+    background: #0A65FF;
+}
+
+h1 {
+    /* width: 215.08px;
+    height: 85px; */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 85px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#email {
+    border: none;
+    background-color: #222636;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+    height: 3rem;
+    width: 100%;
+}
+
+#password {
+    border: none;
+    background-color: #222636;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+    height: 3rem;
+    width: 100%;
+}
+.error{
+    color:white;
+}
+p {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.lgn-btn {
+    width: 50%;
+    border-radius: 30px;
+    height: 3rem;
+    color: white;
+    background-color: #0A65FF;
+}
+
+.reg-btn {
+    width: 50%;
+    border-radius: 30px;
+    height: 3rem;
+    background-color: #050b22;
+    border: white 1px solid;
+}
+
+.wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10% 10%;
+    /* left: 68.21px;
+    top: 115px; */
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    vertical-align: baseline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

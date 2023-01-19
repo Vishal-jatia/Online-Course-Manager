@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!--  <script src="script.js" defer></script>-->
+
+    <title>Contact Us</title>
+    <script src="js/contact.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("npeGEGXdS2w2yyS5I");
+        })();
+    </script>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="left-navbar">
+            <a href="/dashboard"><h2>Home</h2></a>
+            <a href="/dashboard"><h2>Dashboard</h2></a>
+            <a href="/courses_l"><h2>Courses</h2></a>
+        </div>
+
+
+        <div class="logo">
+            <a href="/dashboard"><img class="logo-img" src="images/artificial-intelligence.png" alt="logo"></a>
+        </div>
+
+        <div class="right-navbar">
+            <div class="wrapper">
+                <input type="search" placeholder="Search Here" class="search-box">
+                <img class="search-img" src="images/searching.png" alt="">
+            </div>
+            <!--   <button class="sign_in">Sign In</button>-->
+            <form action="/logout?_method=DELETE" method="POST">
+                <button class="sign_up" type="submit">
+                    <%= name %>
+            </button>
+            </form>
+        </div>
+    </div>
+    <br><br>
+    <h1 class="dashboard">Contact Us</h1>
+    <br>
+    <div class="contactform">
+        <form class="contact" onsubmit="sendmail() ;reset(); return false;">
+            <input type="text" id="name" placeholder="Your Name" value=<%= name %> required>
+            <input type="email" id="email" placeholder="Your Email" value=<%= email %> required>
+            <input type="int" id="phoneno" placeholder="Phone Number" required>
+            <textarea id="message" rows="5" placeholder="How can we help you?" required></textarea>
+            <button type="submit">Submit</button>
+
+            <center>
+                <h3 class="connect">Connect With Us</h3>
+                <div class="socialicons">
+                    <a href="https://www.linkedin.com/login"> <img src="images/linkedin.png" width=40px></a>
+                    <a href="https://www.instagram.com/"> <img src="images/insta.png" width=40px></a>
+                    <a href="https://github.com/"> <img src="images/github.png" width=40px> </a>
+                </div>
+            </center>
+        </form>
+    </div>
+</body>
+
+</html>

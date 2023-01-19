@@ -1,0 +1,114 @@
+body {
+    background-image: url('Desktop\ -\ 1.png');
+    background-repeat: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.dot {
+    
+    width: 24.97px;
+    height: 24.97px;
+    margin-top: 120px;
+    border-radius: 50%;
+    background: #0A65FF;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    vertical-align: baseline;
+}
+
+h1 {
+    /* width: 215.08px;
+    height: 85px; */
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 85px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 7% 7%;
+    /* left: 68.21px;
+    top: 115px; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    background-color: #222636;
+    border: none;
+    border-radius: 30px;
+    height: 3rem;
+    padding-left: 20px;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#fname {
+    text-transform: capitalize;
+    width: 43%;
+    color: white;
+}
+
+#lname {
+    text-transform: capitalize;
+    width: 43%;
+    color: white;
+}
+
+#email {
+    width: 95%;
+    color: white;
+}
+
+#password {
+    width: 95%;
+    color: white;
+}
+
+.reg-btn {
+    background-color: #0A65FF;
+    border-radius: 30px;
+    height: 3rem;
+}
+
+.log-btn{
+    background-color: #050b22;
+    border-radius: 30px;
+    height: 3rem;
+    border: white 1px solid;
+    width: 210px;
+    color: white;
+}
+
+.reg{
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    color: gray;
+}

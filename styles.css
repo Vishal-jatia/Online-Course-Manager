@@ -1,0 +1,135 @@
+body{
+  background-image:url('Desktop - 1.png');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  position: absolute;
+  top: 255px;
+  left: 68.21px;
+  display: grid;
+  grid-template-columns: 212.68px 212.68px;
+  grid-auto-rows: 69px;
+  grid-gap: 15px;
+  grid-template-areas:
+    "fnm lnm"
+    "unm unm" 
+    "pwd pwd"
+    "fgt lgn"
+}
+
+h1{
+  position: absolute;
+  width: 215.08px;
+  height: 85px;
+  left: 68.21px;
+  top: 95px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 85px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.dot{
+  position: absolute;
+  width: 24.97px;
+  height: 24.97px;
+  left: 276px;
+  top: 183px;
+  border-radius: 50%;
+  background: #0A65FF;
+}
+#fName{
+  grid-area: fnm;
+  border: none;
+  background: rgba(56, 59, 68, 0.57);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+  text-transform: uppercase;
+}
+#lName{
+  grid-area: lnm;
+  background: rgba(56, 59, 68, 0.57);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+}
+#uName{
+  grid-area: unm;
+  border: none;
+  background: rgba(56, 59, 68, 0.57);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+#pass{
+  grid-area: pwd;
+  border:none;
+  background: rgba(56, 59, 68, 0.57);
+  border-radius: 30px;
+  padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+
+
+.lgn-btn{
+  grid-area: lgn;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background: #0A65FF;
+  border-radius: 30px;
+  border: none;
+
+}
+
+.lgn-btn:hover{
+    background: #2874f9;
+}
+
+.lgn-btn:active{
+    background: #0A65FF;
+}
+
+.fgt-btn{
+  grid-area: fgt;
+  font-family: 'Poppins', sans-serif;
+  background: rgba(56, 59, 68, 0.57);
+  border-radius: 30px;
+  color: #757575;
+  border: none;
+}
+
+.fgt-btn:hover{
+    background: rgba(61, 63, 73, 0.57);
+}
+
+.fgt-btn:active{
+    background: rgba(56, 59, 68, 0.57);
+}
+
+@media screen and (max-width: 412px) {
+  .wrapper {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

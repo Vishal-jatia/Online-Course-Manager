@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/script.js" defer></script>
+
+    <title>Home</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="left-navbar">
+            <h2><a href="#">Home</a></h2>
+            <h2><a href="#abt">About Us</a> </h2>
+            <h2><a href="/courses">Courses</a> </h2>
+        </div>
+
+        <div class="logo">
+            <a href="#"><img class="logo-img" src="images/artificial-intelligence.png" alt="logo"></a>
+        </div>
+
+        <div class="right-navbar">
+            <div class="wrapper">
+                <input type="search" placeholder="Search Here" class="search-box">
+                <img class="search-img" src="images/searching.png" alt="">
+            </div>
+            <button class="sign_in"><a href="/Login">Sign In</a> </button>
+            <button class="sign_up"><a href="/register">Join Now</a></button>
+        </div>
+        <div class="hamburger">
+            <div class="bar"></div>
+        </div>
+    </div>
+
+    <!-- responsive navbar -->
+
+    <div class="mobile-nav">
+        <div class="mob-wrapper">
+            <input type="search" placeholder="Search Here" class="search-box">
+            <img class="search-img" src="images/searching.png" alt="">
+        </div>
+        <h2><a href="#">Home</a></h2>
+        <h2><a href="#abt">About Us</a> </h2>
+        <h2><a href="/courses">Courses</a> </h2>
+        <div class="mob-btn">
+            <button class="sign_in"><a href="/Login">Sign In</a> </button>
+            <button class="sign_up"><a href="/register">Join Now</a></button>
+        </div>
+    </div>
+
+    <div class="contact">
+        <h3>Need any assistance?</h3>
+        <a href="/contact"><button class="contact-btn">Contact</button></a>
+    </div>
+
+    <div class="progress"></div>
+    <div class="page1">
+        <div class="image-container1">
+            <div class="circle"></div>
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_4rq0nvpt.json" background="transparent"
+                speed="1" class="front-img" loop autoplay></lottie-player>
+        </div>
+        <div class="intro">
+            <div class="heading-container1">
+                <h1>Join the <span class="better-text">Journey</span> of Becoming a Better You</h1>
+            </div>
+            <div class="button-container1">
+                <button class="sign_in"><a href="/Login">Sign In</a></button>
+                <button class="sign_up"><a href="/register">Join Now</a></button>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_o87tttfh.json" background="transparent"
+            speed="1" class="lot-animation" loop autoplay></lottie-player>
+    </div>
+    <br>
+    <section class="page2">
+        <h1><span class="explore">Explore</span> the Courses</h1>
+        <div class="row">
+            <div class="header">
+                <h3 class="title"></h3>
+                <div class="progress-bar"></div>
+            </div>
+            <div class="container">
+                <button class="handle left-handle">
+                    <div class="text">&#8249;</div>
+                </button>
+                <div class="slider">
+
+                    <div class="java">
+                        <img src="images/javacourse.png" class="imgjava" id="imgjava">
+                        <p class="javacoursename">JAVA Course</p>
+                        <a href="/register"><button class="startjava">Start Learning</button></a>
+                    </div>
+
+                    <div class="cs">
+                        <img src="images/csharp.png" class="imgcs" id="imgcs">
+                        <p class="cscoursename">C# Course</p>
+                        <a href="/register"><button class="startcs">Start Learning</button></a>
+                    </div>
+
+                    <div class="ml">
+                        <img src="images/mlcourse.png" class="imgml" id="imgml">
+                        <p class="mlcoursename">Machine Learning Course</p>
+                        <a href="/register"><button class="startml">Start Learning</button></a>
+                    </div>
+
+                    <div class="dsa">
+                        <img src="images/dsa.png" class="imgdsa" id="imgdsa">
+                        <p class="dsacoursename">Data Structures & Algorithm Course</p>
+                        <a href="/register"><button class="startdsa">Start Learning</button></a>
+                    </div>
+
+                    <div class="webbeginner">
+                        <img src="images/webtech.png" class="imgweb" id="imgweb">
+                        <p class="webcoursename">Web Development Course</p>
+                        <a href="/register"><button class="startweb">Start Learning</button></a>
+                    </div>
+
+                    <div class="c">
+                        <img src="images/ccourse.png" class="imgc" id="imgc">
+                        <p class="ccoursename">C Course</p>
+                        <a href="/register"><button class="startc">Start Learning</button></a>
+                    </div>
+
+                    <div class="python">
+                        <img src="images/pythoncourse.png" class="imgpython" id="imgpython">
+                        <p class="pythoncoursename">Python Course</p>
+                        <a href="/register"><button class="startpython">Start Learning</button></a>
+                    </div>
+
+                    <div class="androidbeginner">
+                        <img src="images/androidcourse.png" class="imgandroid" id="imgandroid">
+                        <p class="androidcoursename">Android Development Course</p>
+                        <a href="/register"><button class="startandroid">Start Learning</button></a>
+                    </div>
+
+                    <div class="cpp">
+                        <img src="images/cppcourse.png" class="imgcpp" id="imgcpp">
+                        <p class="cppcoursename">C++ Course</p>
+                        <a href="/register"><button class="startcpp">Start Learning</button></a>
+                    </div>
+                </div>
+                <button class="handle right-handle">
+                    <div class="text">&#8250;</div>
+                </button>
+            </div>
+        </div>
+        <br>
+        <h1 class="testimonials">Testimonials</h1>
+        <div class="marquee">
+            <ul class="marquee-content">
+                <li>
+                    <div class="rev1">
+                        <img src="images/pic1.jpeg" alt=""
+                            class="img1">
+                        <h4>Onu Princeley T.</h4>
+                        <p>Great course. Started this course with no knowledge on Python and after going through this course I am able to do my own
+                        coding with Pyhton.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="rev2">
+                        <img src="images/pic2.jpeg" alt=""
+                            class="img1">
+                        <h4>Akshraj Vanrajsinh C.</h4>
+                        <p>I feel it has the best selection, training and curriculum vs others I have tried. Yes, the courses may be longer than
+                        others, but they're more detailed.</p>
+
+                    </div>
+                </li>
+                <li>
+                    <div class="rev3">
+                        <img src="images/pic3.jpeg" alt=""
+                            class="img1">
+                        <h4>Mohammed T.</h4>
+                        <p>In depth concepts of python have been clearly explained. Good chemistry between student and instructor. Fantastic
+                        course. Completed every vid and had lot of fun</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="rev4">
+                        <img src="images/pic4.jpeg" alt=""
+                            class="img1">
+                        <h4>Dan Z.</h4>
+                        <p>it is really worth it to take this course inplace of a weekend pizza ,it can make u eligible to buy pizza everyday,the
+                        course struture is well design ,it is better than various courses in market that charge money in lakhs</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="rev5">
+                        <img src="images/pic5.jpeg" alt=""
+                            class="img1">
+                        <h4>Naman A.</h4>
+                        <p>This course is amazing. I enjoyed it. The course and challanges detailed good but in some challanges video solution
+                        would be great for good understanding.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="rev6">
+                        <img src="images/pic6.jpeg" alt=""
+                            class="img1">
+                        <h4>Luca M.</h4>
+                        <p>Very well taught course. A lot of knowledge provided in an interactive manner that it wasn't overwhelming or boring.
+                        
+                        I recommend everyone who's interested in full-stack development to go for this course.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="rev7">
+                        <img src="images/pic7.jpeg" alt=""
+                            class="img1">
+                        <h4>Jacob M.</h4>
+                        <p>A very good course covering both the theory and coding for Machine Learning. I used it as a supplement to my college ML
+                        course. very helpful!</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="rev8">
+                        <img src="images/pic8.jpeg" alt=""
+                            class="img1">
+                        <h4>Nu'man Amri M.</h4>
+                        <p>The course is well organized and provides a great coverage on ML related topics.I would have removed the R-part and expanded a bit the theoretical introductions.</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="rev9">
+                        <img src="images/pic9.jpeg" alt=""
+                            class="img1">
+                        <h4>ALWOIZAN, M.</h4>
+                        <p>some videos are long for sure but he made it long to explain every thing and make it easier to understand.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <br><br><br><br>
+
+    <section id="abt">
+        <div class="aboutt">
+            <h1>About Us</h1>
+
+            <div class="abt-container">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam expedita qui adipisci. Nesciunt, autem nam mollitia dolorum quisquam explicabo deleniti totam voluptate natus. Repudiandae dolorem nam obcaecati ullam, et corrupti quod cumque pariatur sunt ipsam, dolore aut beatae numquam aperiam facilis laboriosam laborum itaque suscipit odit recusandae nisi, reprehenderit delectus perspiciatis totam. Maiores nostrum ab saepe culpa, animi quidem nobis sapiente deserunt nihil aspernatur beatae magnam cum ut quod a mollitia vitae porro nam suscipit aliquam. Alias nesciunt perferendis ducimus, repudiandae laborum ipsam, aliquam ipsa unde itaque, aliquid voluptas eligendi! Minus mollitia necessitatibus fugit voluptates, hic molestiae dolor labore facere!</p>
+                <div class="abt-img">
+                    <div class="div1">
+                        <img src="images/me.png" alt="">
+                    </div>
+                    <div class="div2">
+                        <h1>Vishal Jatia</h1>
+                        <h2>2021UCS1589</h2>
+                    </div>
+                    <div class="div3">
+                        <h1>Rishnak Kumar</h1>
+                        <h2>2021UCS1588</h2>
+                    </div>
+                    <div class="div4">
+                        <img src="images/rishnak.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br>
+    <footer>
+        <h1>GET IN TOUCH</h1>
+        <div class="socialicons">
+            <a href="https://www.linkedin.com/login"> <img src="images/linkedin.png" width=40px></a>
+            <a href="https://www.instagram.com/"> <img src="images/insta.png" width=40px></a>
+            <a href="https://github.com/"> <img src="images/github.png" width=40px> </a>
+        </div>
+    </footer>
+</body>
+
+</html>

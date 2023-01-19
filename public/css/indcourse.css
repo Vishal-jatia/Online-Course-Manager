@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Space+Grotesk&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color: #010A1B;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    overflow-x: hidden;
+}
+.left-navbar a{
+    color:white;
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+.left-navbar a:hover{
+    color:#0350bb;
+}
+.circle {
+    box-sizing: border-box;
+    position: absolute;
+    width: 481.73px;
+    height: 481.73px;
+    left: 927.16px;
+    top: 204.78px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #012966 8.76%, rgba(217, 217, 217, 0) 100%);
+    filter: blur(2.5px);
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    min-width: 150px;
+}
+.dashboard,.mycourses,.ourcourses,.mlheading{
+    color:white;
+    text-align: center;
+}
+
+.prog,.current, .watchlist,.recommend {
+    margin:10px;
+}
+.your , .currently, .my {
+    color:#0350bb;
+}
+
+.logo-img {
+    width: 3rem;
+}
+.androidbeginner, .webbeginner,.dsa,.python,.ml,.c,.cs,.java,.cpp{
+    height:310px;
+    width:93%;  
+    background-color: grey;
+    margin:16px;
+    margin-left: 18px;
+    border-radius: 10px;
+    display:inline-block;
+}
+.block{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    width: 95vw;
+    height:60vh;   
+    margin:10px;
+    overflow: hidden;
+}
+
+.courseheading{
+    margin: 10px auto;
+    width: 90%;
+}
+.courseheading img{
+    width:100%;
+    height:30vw;
+    /* margin-left: 5%; */
+    border-radius: 10px;
+}
+.ml-para,.java-para,.cpp-para,.c-para,.csharp-para,.web-para,.android-para,.python-para,.dsa-para{
+    color: rgb(196, 192, 192);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30vw;
+    text-align: justify;
+    margin-left:70px;
+    margin-top: 10px;
+    word-wrap: break-word;
+}
+.mlyoutube,.javayoutube,.cppyoutube,.cyoutube,.webyoutube,.androidyoutube,.pythonyoutube,.dsayoutube,.csharpyoutube{
+    margin:10px;
+    float:right;
+    position: absolute;
+    right: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgba(100, 100, 100, 0.32);
+}
+.about{
+    margin-left: 80px;
+}
+.currentcards,.cards,.watchlistcards,.recommendcards{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.androidcoursename,.webcoursename,.dsacoursename,.pythoncoursename,.mlcoursename
+,.ccoursename,.cscoursename,.javacoursename,.cppcoursename{
+    margin:10px;
+    font-size:20px;
+}
+.name{
+    color:#0350bb;
+}
+.welcome{
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.imgandroid, .imgweb,.imgdsa,.imgpython,.imgml,.imgc,.imgcs,.imgjava,.imgcpp{
+    width:95%;
+    border-radius:10px;
+    margin:10px 9px;
+}
+.startandroid,.startweb,.startdsa,.startpython,.startml,.startc,.startcs
+,.startjava,.startcpp{
+    font-size: 1rem;
+    color: white;
+    border: white solid 1px;
+    border-radius: 30px;
+    margin:10px;
+    margin-bottom: 0px;
+    padding:5px;
+}
+button{
+    display: block;
+    position: relative;
+    bottom: 2px;
+}
+.mlheading{
+    margin:10px;
+    margin-left:10px;
+}
+.machine{
+    color:#0350bb;
+}
+
+
+.left-navbar>h2 {
+    margin: 10px auto;
+    font-size: 1rem;
+    color: white;
+    transition: 1s;
+}
+
+.search-img {
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.navbar {
+    backdrop-filter: blur(50px);
+    position: sticky;
+    top:0;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-around;
+        background-color: #010a1b;
+    /* background-color: #fad9d9; */
+    /* box-shadow: 0 2px 20px 4px #ecbcbc; */
+    padding: 15px 0;
+}
+
+.left-navbar {
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.left-navbar > h2:hover {
+    color: #bdcce4;
+    text-decoration: underline;
+    /* background-color: #a04105; */
+}
+
+.right-navbar {
+    margin-left: 300px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-box {
+    background-color: #011635;
+    position: relative;
+    border-radius: 50px;
+    border: none;
+    margin-right: 30px;
+    padding: 2px 20px 2px 40px;
+}
+
+.search-box:hover {
+    background-color: #00183b;
+}
+
+.heading-container1>h1 {
+    position: absolute;
+    width: 598px;
+    height: 389px;
+    left: 144.55px;
+    top: 160px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 87px;
+    line-height: 99px;
+    color: white;
+}
+
+.better-text{
+    color:#0350bb;
+}
+
+button {
+    background-color: #010A1B;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.logo {
+    position: absolute;
+    z-index: 0;
+    overflow: hidden;
+    border-radius: 50%;
+    padding: 30px;
+    top: -15px;
+}
+
+.heading-overlay {
+    position: absolute;
+    width: 383.22px;
+    height: 97.63px;
+    left: 120px;
+    top: 468.86px;
+    background: #012966;
+    mix-blend-mode: multiply;
+    transform: rotate(-3.83deg);
+}
+
+.logo::before {
+
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    z-index: -2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#012966, #012966), linear-gradient(#012254, #012254), linear-gradient(#003a8c, #003a8c), linear-gradient(#3a71c9, #3a71c9);
+    animation: rotate 2s linear infinite;
+}
+
+.logo::after {
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    left: 5px;
+    top: 5px;
+    /* margin: 5px; */
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-color: #010a1b;
+    
+}
+
+
+.right-navbar>.sign_in {
+    font-size: 1rem;
+    color: white;
+    border: white solid 1px;
+    border-radius: 30px;
+    padding:5px;
+}
+
+
+.right-navbar>.sign_in:hover {
+    background-color: #01102b;
+}
+.right-navbar>.sign_up:hover {
+    background-color: #012b69;
+}
+
+.right-navbar>.sign_up {
+    font-size: 1rem;
+    border: 1px solid #012254;
+    background-color: #012254;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 30px;
+
+}
+
+.front-img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 890px;
+    top: 150px;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.heading {
+    font-size: 10rem;
+    text-decoration: underline;
+}
+
+.head {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.page1 {
+    margin-top: 100px;
+    align-content: center;
+    height: 80vh;
+}
+
+.button-container1>.sign_in {
+    backdrop-filter: blur(50px);
+    font-size: 1rem;
+    color: white;
+    position: absolute;
+    border-radius: 30px;
+    width: 141px;
+    height: 47px;
+    left: 144.55px;
+    top: 608px;
+}
+
+
+
+.lot-animation {
+    position: absolute;
+    /* color: white; */
+    width: 100px;
+    height: 100px;
+    bottom: 10px;
+    left: 50%;
+    /* opacity: 0.1; */
+}
+
+.remove-animation {
+    display: none;
+}
+
+.button-container1>.sign_up {
+    font-size: 1rem;
+    border: 1px solid #012254;
+    background-color: #012254;
+    color: white;
+    padding: 0 10px;
+    border-radius: 30px;
+    position: absolute;
+    width: 141px;
+    height: 47px;
+    left: 340.55px;
+    top: 608px;
+}
+
+.page2 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.page2>h1 {
+    /* position: absolute; */
+    font-size: 4rem;
+    margin: 10px auto;
+    color: white;
+}
+
+.course-card>div {
+    position: relative;
+    width: 500px;
+    height: 200px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 30px;
+}
+
+/* .card1 {
+    animation: move-left 2s linear;
+} */
+
+.card1::after {
+    content: '';
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    border-radius: 30px;
+    /* animation: move-right 2s linear; */
+}
+
+
+@keyframes move-right {
+    to{
+        left: 500px;
+    }
+}
+@keyframes move-left {
+    to {
+        left: 0;
+    }
+}
+
+
+.explore{
+    color: #0350bb;
+}
+
+@font-face {
+    font-family: 'doppelganger';
+    src: url('Poppins-Regular.ttf');
+}

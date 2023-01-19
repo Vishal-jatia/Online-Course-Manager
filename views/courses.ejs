@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/courses.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/courses.js" defer></script>
+
+    <title>Courses</title>
+    <style>
+        .sign_in a{
+            color: white;
+            text-decoration: none;
+        }
+        .sign_up a{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="left-navbar">
+            <a href="/"><h2>Home</h2></a>
+            
+            <a href="/courses"><h2>Courses</h2></a> 
+        </div>
+
+
+        <div class="logo">
+            <a href="/"><img class="logo-img" src="images/artificial-intelligence.png" alt="logo"></a>
+        </div>
+
+        <div class="right-navbar">
+            <div class="wrapper">
+                <input type="search" placeholder="Search Here" class="search-box" data-search>
+                <img class="search-img" src="images/searching.png" alt="">
+            </div>
+            <button class="sign_in"><a href="/Login">Sign In</a> </button>
+            <button class="sign_up"><a href="/register">Join Now</a></button>
+        </div>
+    </div>
+    <div class="progress"></div>
+    <br><br>
+
+    <h1 class="ourcourses">Courses</h1>
+
+    <div class="currentcards">
+        <div class="java">
+            <img src="images/javacourse.png" class="imgjava" id="imgjava" onmouseover="setnewimgjava()"
+                onmouseout="setoldimgjava()">
+            <p class="javacoursename">JAVA Course</p>
+            <a href="/register"><button class="startjava">Start Learning</button></a>
+        </div>
+
+        <div class="cs">
+            <img src="images/csharp.png" class="imgcs" id="imgcs" onmouseover="setnewimgcs()"
+                onmouseout="setoldimgcs()">
+            <p class="cscoursename">C# Course</p>
+            <a href="/register"><button class="startcs">Start Learning</button></a>
+        </div>
+
+        <div class="ml">
+            <img src="images/mlcourse.png" class="imgml" id="imgml" onmouseover="setnewimgml()"
+                onmouseout="setoldimgml()">
+            <p class="mlcoursename">Machine Learning Course</p>
+            <a href="/register"><button class="startml">Start Learning</button></a>
+        </div>
+
+        <div class="dsa">
+            <img src="images/dsa.png" class="imgdsa" id="imgdsa" onmouseover="setnewimgdsa()"
+                onmouseout="setoldimgdsa()">
+            <p class="dsacoursename">Data Structures & Algorithm Course</p>
+            <a href="/register"><button class="startdsa">Start Learning</button></a>
+        </div>
+
+        <div class="webbeginner">
+            <img src="images/webtech.png" class="imgweb" id="imgweb" onmouseover="setnewimgweb()"
+                onmouseout="setoldimgweb()">
+            <p class="webcoursename">Web Development Course</p>
+            <a href="/register"><button class="startweb">Start Learning</button></a>
+        </div>
+
+        <div class="c">
+            <img src="images/ccourse.png" class="imgc" id="imgc" onmouseover="setnewimgc()" onmouseout="setoldimgc()">
+            <p class="ccoursename">C Course</p>
+            <a href="/register"><button class="startc">Start Learning</button></a>
+        </div>
+
+        <div class="python">
+            <img src="images/pythoncourse.png" class="imgpython" id="imgpython" onmouseover="setnewimgpython()"
+                onmouseout="setoldimgpython()">
+            <p class="pythoncoursename">Python Course</p>
+            <a href="/register"><button class="startpython">Start Learning</button></a>
+        </div>
+
+        <div class="androidbeginner">
+            <img src="images/androidcourse.png" class="imgandroid" id="imgandroid" onmouseover="setnewimgandroid()"
+                onmouseout="setoldimgandroid()">
+            <p class="androidcoursename">Android Development Course</p>
+            <a href="/register"><button class="startandroid">Start Learning</button></a>
+        </div>
+
+        <div class="cpp">
+            <img src="images/cppcourse.png" class="imgcpp" id="imgcpp" onmouseover="setnewimgcpp()"
+                onmouseout="setoldimgcpp()">
+            <p class="cppcoursename">C++ Course</p>
+            <a href="/register"><button class="startcpp">Start Learning</button></a>
+        </div>
+    </div>
+</body>
+</html>
+
